@@ -1,0 +1,403 @@
+:root
+{
+	--color: #252523;
+	--color1: #DAA520;
+}
+
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	font-family: sans-serif;
+}
+
+/* HEADER */ 
+
+	span.R
+{
+	text-transform: uppercase;
+    background: linear-gradient(0.25turn, #DAA520, #ebf8e1, #DAA520);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+header
+{
+	height: 90px;
+	width: 100%;
+	background-color: var(--color);
+}
+
+header h1
+{
+	font-size: 25px;
+	font-family: Didot, sherif;
+	font-weight: 200;
+	float: left;
+	text-align: center;
+	letter-spacing: -2px;
+	line-height: 25px;
+	margin-top: 20px;
+	margin-left: 2%;
+	color: white;
+}
+
+header ul
+{
+	float: right;
+	width: 500px;
+}
+
+span.h1
+{
+	font-family: sans-serif;
+	color: black;
+	font-size: 15px;
+	letter-spacing: -1px;
+	color: white;
+	letter-spacing: 7px;
+}
+
+
+header ul li
+{
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 4%;
+}
+
+header a 
+{
+	margin-left: 5px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+header a:hover
+{
+	background: linear-gradient(0.25turn, #DAA520, #ebf8e1, #DAA520);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* CONTACT */ 
+
+div.grand-tirer
+{
+	height: 3px;
+	width: 100%;
+	background: linear-gradient(0.75turn, #ebf8e1, #DAA520, #ebf8e1);
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 30px;
+}
+
+#contact
+{
+	background-color: var(--color);
+	height:550px;
+}
+
+#contact h4
+{
+	color: white;
+	margin-top: 100px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: 10px;
+}
+
+#contact p 
+{
+	text-align: center;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 17px;
+	color: lightgrey;
+}
+
+div.tirer2
+{
+	height: 3px;
+	width: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	background: linear-gradient(0.75turn, #DAA520, #ebf8e1, #DAA520);
+	-webkit-text-fill-color: transparent;
+}
+
+div.tab img
+{
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+div.tab a
+{
+	text-decoration: none;
+	color: lightgrey;
+}
+
+div.tab a:hover
+{
+	background: linear-gradient(0.75turn, #ebf8e1, #DAA520, #ebf8e1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* FIN */ 
+
+div.tirer3
+{
+	height: 3px;
+	width: 60px;
+	background: linear-gradient(0.75turn, #ebf8e1, #DAA520, #ebf8e1);	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+section.derniere
+{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background-color: var(--color);
+	width: auto;
+}
+
+section.derniere p
+{
+	color: lightgrey;
+	font-size: 12px;
+}
+
+div.return
+{
+	margin-left: 3%;
+	margin-top: 30px;
+}
+
+div.return a
+{
+	background: linear-gradient(0.95turn, #DAA520, #ebf8e1, #DAA520);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 300;
+}
+
+div.return a:hover
+{
+	background: linear-gradient(0.95turn, #ebf8e1, #DAA520, #ebf8e1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+/* ----------- RESPONSIVE -----------*/ 
+/* ----------- RESPONSIVE -----------*/ 
+/* ----------- RESPONSIVE -----------*/ 
+/* ----------- RESPONSIVE -----------*/ 
+/* ----------- RESPONSIVE -----------*/ 
+/* ----------- RESPONSIVE -----------*/ 
+
+
+@media only screen and (max-width: 375px)
+{
+			span.R
+	{
+		text-transform: uppercase;
+	    background: linear-gradient(0.25turn, #DAA520, #ebf8e1, #DAA520);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	header
+	{
+		height: 90px;
+		width: 240%;
+		background-color: var(--color);
+	}
+
+	header h1
+	{
+		font-size: 25px;
+		font-family: Didot, sherif;
+		font-weight: 200;
+		float: left;
+		text-align: center;
+		letter-spacing: -2px;
+		line-height: 25px;
+		margin-top: 20px;
+		margin-left: 2%;
+		color: white;
+	}
+
+	header ul
+	{
+		float: right;
+		width: 240%;
+	}
+
+	span.h1
+	{
+		font-family: sans-serif;
+		color: black;
+		font-size: 15px;
+		letter-spacing: -1px;
+		color: white;
+		letter-spacing: 7px;
+	}
+
+
+	header ul li
+	{
+		display: inline-block;
+		margin-top: 30px;
+		margin-right: 4%;
+	}
+
+	header a 
+	{
+		margin-left: 5px;
+		text-decoration: none;
+		color: white;
+		text-transform: uppercase;
+		font-size: 13px;
+	}
+
+	header a:hover
+	{
+		background: linear-gradient(0.25turn, #DAA520, #ebf8e1, #DAA520);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	/* CONTACT */ 
+
+	div.grand-tirer
+	{
+		height: 3px;
+		width: 100%;
+		background: linear-gradient(0.75turn, #ebf8e1, #DAA520, #ebf8e1);
+		-webkit-text-fill-color: transparent;
+		margin-bottom: 30px;
+	}
+
+	#contact
+	{
+		background-color: var(--color);
+		height:1740px;
+		width: 240%;
+	}
+
+	#contact h4
+	{
+		color: white;
+		margin-top: 300px;
+		font-size: 60px;
+		text-align: center;
+		font-weight: 400;
+		letter-spacing: 10px;
+	}
+
+	#contact p 
+	{
+		text-align: center;
+		width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+		color: lightgrey;
+		margin-bottom: 30px;
+	}
+
+	div.tirer2
+	{
+		height: 3px;
+		width: 60px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 30px;
+		margin-top: 15px;
+		background: linear-gradient(0.75turn, #DAA520, #ebf8e1, #DAA520);
+		-webkit-text-fill-color: transparent;
+	}
+
+	div.tab img
+	{
+		margin-bottom: 10px;
+		margin-top: 25px;
+	}
+
+	div.tab a
+	{
+		text-decoration: none;
+		color: lightgrey;
+	}
+
+	div.tab a:hover
+	{
+		background: linear-gradient(0.75turn, #ebf8e1, #DAA520, #ebf8e1);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	/* FIN */ 
+
+	div.tirer3
+	{
+		height: 3px;
+		width: 60px;
+		background: linear-gradient(0.75turn, #ebf8e1, #DAA520, #ebf8e1);	margin-right: auto;
+		margin-left: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	section.derniere
+	{
+		text-align: center;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		background-color: var(--color);
+		width: 240%;
+	}
+
+	section.derniere p
+	{
+		color: lightgrey;
+		font-size: 12px;
+	}
+
+	div.return
+	{
+		margin-left: 3%;
+		margin-top: 30px;
+	}
+
+	div.return a
+	{
+		background: linear-gradient(0.95turn, #DAA520, #ebf8e1, #DAA520);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-weight: 300;
+	}
+
+	div.return a:hover
+	{
+		background: linear-gradient(0.95turn, #ebf8e1, #DAA520, #ebf8e1);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
